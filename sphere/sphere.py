@@ -9,7 +9,7 @@ class Sphere(object):
         return '%s(%s)' % (self.__class__.__name__, self.radius)
 
     def surface(self):
-        return 4.0 * 3.1416 * self.radius ** 3
+        return 4.0 * math.pi * self.radius ** 2
         
     def volume(self):
         return 4/3 * 3.1416 * self.radius ** 3
