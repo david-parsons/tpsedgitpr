@@ -12,7 +12,7 @@ class Sphere(object):
         return 4.0 * math.pi * self.radius ** 2
         
     def volume(self):
-        return 4/3 * 3.1416 * self.radius ** 3
+        return 4.0/3.0 * math.pi * self.radius ** 3
         
     def diameter(self):
         return self.radius
